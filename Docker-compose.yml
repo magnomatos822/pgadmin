@@ -5,7 +5,7 @@ services:
   pgadmin:
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "detic"
+      PGADMIN_DEFAULT_EMAIL: "desenvolvimento.detic@policiacivil.ce.gov.br"
       PGADMIN_DEFAULT_PASSWORD: "TGF@bxh4uqe1zvf0hqk"
     ports:
       - "16543:80"
