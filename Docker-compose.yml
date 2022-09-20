@@ -10,4 +10,8 @@ services:
     ports:
       - "16543:80"
     networks:
-      - postgres-compose-network
+      - pgadmin-net
+
+networks:
+  pgadmin-net:
+    driver: bridge
